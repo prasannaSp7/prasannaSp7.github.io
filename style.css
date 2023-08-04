@@ -108,7 +108,7 @@ nav ul li a:hover::after
     content: '';
     width: 0;
     height: 3px;
-    background: #282be6;
+    background: #3235f7;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -119,10 +119,10 @@ nav ul li a:hover::after
 }
 .tab-contains ul li{
     /* list-style: none; */
-    margin: 10px 0;
+    margin: 10px;
 }
 .tab-contains ul li span{
-    color: #282be6;
+    color: #3f42f8;
     font-size: 17px;
 }
 .tab-contains{
@@ -393,6 +393,3 @@ nav .fa-solid{
 .Certificate-list select option:hover{
     background: #888787;
 }
-
-
-
