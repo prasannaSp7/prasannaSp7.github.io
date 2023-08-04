@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Selva Prasanna Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c3548d04e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav>
+            <img src="logo.png" alt="logo">
+            <ul id = "sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()" style="color: #edeff3;"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" style="color: #ffffff;"></i>
+          </nav>
+          <div class="header-text">
+            <br><br>
+            <p>Python / Web Security</p>
+            <h1>Hi, I'am <span>Selva </span>Prasanna</h1>
+          </div> 
+        </div>
+    </div>
+   <!-- ----about-- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-c-1">
+                    <img src="about.jpg">
+                </div>
+                <div class="about-c-2">
+                    <h1 class="Sub-title">About me</h1>
+                    <p>Hi, this is Selva Prasanna An Engineering Newgrad with a passion for Programming and Analytics. I thrive on staying up-to-date with the latest trends in technology
+                        and have a natural adaptability to new tools and frameworks. Equipped with a good understanding of data structures and algorithms, I am driven to solve
+                        complex problems through logical thinking and systematic approaches</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contains active-tab" id="Skills">
+                            <ul>
+                                <li><span>Python</span></li>
+                                <li><span>Web Security</span><br>Penetration and Vulnerabliity testing</li>
+                                <li><span>C++ Programming</span></li>
+                                <li><span>C Progaramming</span></li>
+                                <li><span>SQL</span></li>
+                                <li><span>Web Development</span><br>HTML5, CSS3, JavaScript</li>
+                                <br><span><h3>Mechanical</h3></span>
+                                <li><span>Ansys</span></li>
+                                <li><span>Creo</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contains" id="Education">
+                            <ul>
+                                <li><span>Bachelor of Technology (B.Tech)- Mechanical Engineering</span><br><br>SASTRA Deemed university, thanjavur<br>2019 - 2023<br>CGPA : 6.7759</li>
+                                <li><span>High Secondary(XII) - HSC</span><br><br>Biology/Mathematics<br>SRV Matric Higher Secondary school, samayapuram<br>2018 - 2019<br>Percentage : 86 %</li>
+                                <li><span>High School(X) - SSLC</span><br><br>SRV Matric Higher Secondary school, samayapuram<br>2016 - 2017<br>Percentage : 97.2 %</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------- Projects-->
+    <div id="project">
+        <div class="container">
+            <h1 class="Sub-title">Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i><br>
+                    <i class="fa-solid fa-vr-cardboard"></i>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>Main Project</h2>
+                    <p><h3>Development of a VR simulation to study auto rickshaw
+                        driver posture during an accident scenario</h3></p><br>
+                    <!-- <a>Learn more</a> -->
+                    <ul>
+                        <li><h5>Research objective: </h5>Evaluate the impact of driver
+                            positioning during auto rickshaw accidents.</li>
+                        <li><h5> VR module development: </h5>Created a Virtual Reality module
+                                based on the Driver Behavior Questionnaire (DBQ) for
+                                accident scenarios using UNITY and BLENDER software.</li>
+                        <li><h5>VR experience: :</h5>Volunteers experience a virtual crash
+                            scenario by immersing themselves in the developed VR
+                            environment which has been deployed Oculus side quest.</li> 
+                        <li><h5>Biomechanics study: </h5>10 Volunteers are fixed with markers
+                            on their body joints in a biomechanics laboratory to
+                            measure joint angles during the simulated crash.</li> 
+                        <li><h5>Importance of results: </h5>The study's findings will enhance
+                            understanding of driver posture during crashes and inform
+                            future vehicle design improvements and safety regulations.</li>
+                        <li><h5>Responsibilities : </h5> Developing a Virtual environment using
+                            UNITY, Animations, Data interpretation and Visual 3d
+                            professionals for ankle measurements.</p></li>
+                        </ul>                  
+                </div>
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i><br>
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <h2>Mini Project</h2>
+                    <p><h3>Ride by Wire Technology</h3></p><br>
+                    <!-- <a>Learn more</a> -->
+                    <ul>
+                        <li><h5>RBW throttle </h5> uses an electronic controller instead of a
+                            physical cable to regulate the engine's air-fuel mixture.</li>
+                        <li>The system relies on a sensor to detect the hand throttle
+                            movement, transmitting this data to the ECM/ECU.</li>
+                        <li>The ECM considers various factors like engine speed and
+                            gear selection before sending signals to the electronic
+                            throttle body (ETB) for precise throttle adjustments.</li> 
+                        <li>The mathematical representation of the RBW throttle
+                            system is achieved using SIMULINK (MATLAB).</li> 
+                        <li><h5>Responsibilities : </h5> developing comprehensive documentation
+                            that includes clear flow charts, detailed pie charts, and
+                            informative graphs to aid understanding.</li>    
+                        </ul> 
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------certificate----- -->
+    <div id="Certificates">
+        <div class="container">
+            <h1 class="Sub-title">My Certificates</h1>
+            <div class="Certificate-list">
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Udemy HackerRank IBM</p><br>
+                    <p>View Certificate</p><br>
+                    <select name="View certificate" id="1" onchange="window.location.href=this.value;">
+                        <br><option value="#">Select</option>
+                        <br><option value="https://www.udemy.com/certificate/UC-efe29dd4-25bb-4ef5-95e4-decb8171362c/">Udemy - ZTM</option>
+                        <br><option value="https://www.hackerrank.com/certificates/119a304fb8bd">HackerRank</option>
+                        <br><option value="https://courses.cognitiveclass.ai/certificates/f6351ad617f34f7ca65cb205ed4464cb">IBM</option>
+                    </select><br>
+                <!-- <a href="https://www.udemy.com/certificate/UC-efe29dd4-25bb-4ef5-95e4-decb8171362c/" target="_blank">View Certificates</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Web Security</h2>
+                    <p>Udemy - Penetration &Vulnerabliity testing</p><br>
+                        <a href="https://www.udemy.com/certificate/UC-df128519-44bf-4433-b365-fd76b70b788d/" target="_blank">View Certificates</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bookmark"></i>
+                    <h2>TCS - NQT June - 2023</h2>
+                    <p>Foundation Section - 68.85 %<br>Advanced Section - 90.16 %<br>Programming  - 79%</p><br>
+                    <a href="NQT june.pdf" target="_blank">View Certificates</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i><br>
+                    <h2>NPTEL</h2>
+                    <p>Soft Skill Certification</p><br>
+                    <a href="NPTEL.pdf" target="_blank">View Certificates</a>
+                </div><br>
+            </div><br>
+        </div>
+    </div>
+    
+    <!-- --------Contact- -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="con-left">
+                    <h2 class="sub-title">Contact Details</h2><br><br>
+                    <p> <i class="fa-solid fa-paper-plane" style="color: #f5f5f5;"></i> selvaprasannatry@gmail.com</p>
+                    <br><p> <i class="fa-solid fa-phone" style="color: #ffffff;"></i> +91 8056852020</p>
+                    <br><div class="social-icons">
+                        <a href="https://www.linkedin.com/in/selva-prasanna-7s/" target="_blank"><i class="fa-brands fa-linkedin-in" style="color: #f2f2f2;"></i></a>
+                        <a href="https://www.instagram.com/_selva_sp_/" target="_blank"><i class="fa-brands fa-instagram" style="color: #fafcff;"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                    </div>
+                    <a href="SelvaCv.pdf" target="_blank" download="SelvaPrasanna_Cv" class="btn">Download My Resume</a>
+                </div>
+                <div class="con-right">
+                      <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1"><h3>Submit</h3></button>
+                    </form>
+                    <span id="Msg"></span> 
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Selva Prasanna. S</p>
+        </div>
+        
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontains=document.getElementsByClassName("tab-contains");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontain of tabcontains){
+                tabcontain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx7OU-G-okM972II9yWjwVUH4RZO2GV8cHoYgXyuF2vIl5OOm_SLHG0Jz14byJgmMWvOw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const Msg=document.getElementById("Msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                Msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    Msg.innerHTML=""
+                },4500)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
